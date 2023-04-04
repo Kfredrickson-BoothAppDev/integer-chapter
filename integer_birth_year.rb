@@ -21,3 +21,6 @@
 # "Nice! You were born in approximately 2013."
 
 p "How old are you?"
+age=gets
+year = 2023-age.chomp.to_i
+p "Nice! You were born in approximately " + year.to_s + "."
